@@ -49,10 +49,6 @@ button{
     color: #fff;
 }
 
-#new-input::placeholder{
-    color: #fff;
-}
-
 #new-submit{
     color: crimson;
     font-size: 1rem;
