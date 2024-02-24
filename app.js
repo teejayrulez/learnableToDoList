@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
     const task = input.value;
 
     if (!task) {
-      alert("Nothing to add to my list");
+      alert("Nothing to add");
       return;
     }
 
