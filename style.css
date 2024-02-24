@@ -41,13 +41,13 @@ button{
 
 #new-input{
     flex: 1 1 0%;
-    background-color: #6668f7;
     padding: 0.8rem;
     border-radius: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
     color: #fff;
 }
+
 
 #new-submit{
     color: crimson;
