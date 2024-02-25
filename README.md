@@ -11,3 +11,8 @@
 ### Features of the code
 1. A simple UI and UX.
 2. A simple Design.
+
+### Inspiration for my to-do-list
+1. W3school
+2. Youtube
+3. FreeCodeCamp
