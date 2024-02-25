@@ -1,15 +1,15 @@
 window.addEventListener("load", () => {
-  const form = document.querySelector("#new-form");
-  const input = document.querySelector("#new-input");
+  const form = document.querySelector("#to-do-form");
+  const input = document.querySelector("#new-to-do-input");
   const listElement = document.querySelector("#lists");
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const task = input.value;
+    const list = input.value;
 
-    if (!task) {
-      alert("Nothing to add to my list");
+    if (!list) {
+      alert("Nothing to add");
       return;
     }
 
@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
     const taskInputElement = document.createElement("input");
     taskInputElement.classList.add("text");
     taskInputElement.type = "text";
-    taskInputElement.value = task;
+    taskInputElement.value = list;
     taskInputElement.setAttribute("readonly", "readonly");
 
     taskContentElement.appendChild(taskInputElement);
